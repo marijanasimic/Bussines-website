@@ -1,8 +1,7 @@
 "use strict";
 
 // Page navigation
-document.documentElement.scrollTop = 0;
-document.body.scrollTop = 0;
+
 document.querySelector(".nav_links").addEventListener("click", function (e) {
   e.preventDefault();
 
